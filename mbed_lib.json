@@ -19,6 +19,16 @@
                 "BLUENRG_PIN_SPI_IRQ=PE_6",
                 "BLUENRG_PIN_SPI_SCK=PC_10"
             ]
+        },
+        "BINBEAT_V1_X": {
+            "target.macros_add": [
+                "BLUENRG_PIN_SPI_MOSI=MOSI_FRONT",
+                "BLUENRG_PIN_SPI_MISO=MISO_FRONT",
+                "BLUENRG_PIN_SPI_nCS=CS_BLE",
+                "BLUENRG_PIN_SPI_RESET=RST_BLE",
+                "BLUENRG_PIN_SPI_IRQ=IRQ_BLE",
+                "BLUENRG_PIN_SPI_SCK=SCLK_FRONT"
+            ]
         }
     }
 }
